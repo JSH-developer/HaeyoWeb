@@ -1,0 +1,155 @@
+h3{
+	margin-left:15px;
+	color:#4682b4;
+}
+
+table.bd{
+	width: 1020px;
+	border-collapse: collapse;
+	margin-left:5px;
+	font-family:'Noto Sans KR', sans-serif;
+}
+table.bd th{
+	border-top: 1px solid #4682b4;
+	border-bottom: 1px solid #4682b4;
+	color : black;
+}
+
+table.bd tr:hover, table.bd tr:active, [id*='trnt']:hover, [id*='trnt']:active{
+	background-color: #cae2ed;
+}
+
+
+table.bd th:nth-child(1),table.bd  td:nth-child(1){
+	width:80px;
+	padding:8.75px;
+	text-align: center;
+	color:#4682b4;
+}
+table.bd th:nth-child(2), table.bd td:nth-child(2){
+	width:70px;
+	padding:8.75px;
+	text-align: center;
+}
+table.bd th:nth-child(3), table.bd td:nth-child(3){
+	width:350px;
+	padding:8.75px;
+	cursor:pointer;
+}
+	
+table.bd th:nth-child(4), table.bd td:nth-child(4){
+	width:100px;
+	padding:8.75px;
+	text-align: center;
+}
+table.bd th:nth-child(5), table.bd td:nth-child(5){
+	width:70px;
+	padding:8.75px;
+	text-align: center;
+}
+table.bd th:nth-child(6), table.bd td:nth-child(6){
+	width:85px;
+	padding:8.75px;
+	text-align: center;
+}
+
+[id*='trnt']{
+	background-color:#EAEAEA;
+}
+
+/* 마우스 오버 효과제거 */
+table.bd tr:first-child>th, table.bd tr:first-child:hover, table.bd tr:active{
+	background-color: white;
+	color:black;
+}
+
+button.wbtn{
+	float:right;
+}
+#page_box{
+	text-align: center;
+}
+#page_box>a, #page_box>a:hover, #page_box>a:visited{
+	text-decoration: none;
+	color:#4682b4;
+}
+
+/*aside */
+aside h1{
+	font-family: 'Jua', sans-serif;
+	color:white;
+	font-weight: lighter;
+}
+
+
+.cate{
+	font-family: 'Jua', sans-serif;
+	margin:10px;
+	padding:10px;
+	width:100px;
+	font-size: 15px;
+	background:none;
+	border: 0px;
+	color: #4682b4;
+	border-bottom: 0.5px solid #4682b4;
+	border-radius: 5px;
+	font-weight: lighter;
+	cursor:pointer;
+}
+
+.cate:hover{
+	color:white;
+	background-color: #4682b4;
+	border: 0px;
+	transition-duration: 0.3s;
+}
+
+#searchbar{
+	text-align: center;
+}
+#searchbar select{
+	display:inline-block;
+	width:50px;
+	height: 25px;
+	border:1px solid #bfbfbf;
+	vertical-align: top;
+}
+#searchbar>input[type=text]{
+	display:inline-block;
+	width:500px;
+	height: 22px;
+	padding-left: 5px;
+	border:1px solid #bfbfbf;
+	color: gray;
+	vertical-align: top;
+}
+#searchbar input[type=submit]{
+	font-family: 'Jua', sans-serif;
+	display:inline-block;
+	margin-left:0px;
+	width:50px;
+	height: 25px;
+	background: none;
+	font-weight:lighter;
+	border:1px solid #bfbfbf;
+	color: gray;
+	vertical-align: top;
+}
+
+button, input[type=button]{
+	font-family: 'Jua', sans-serif;
+	background-color: white;
+	border:0.8px double #4682b4;
+	color:#4682b4;
+	border-radius:15px;
+	margin:1px;
+	padding: 7px;
+	margin-top:3px;
+}
+
+button:hover, input[type=button]:hover{
+	background-color: #4682b4;
+	color:white;
+}
+
+

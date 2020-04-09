@@ -1,0 +1,143 @@
+#rep_div form{
+ 	display:none;
+}
+
+table.rf{
+	width:100%;
+	border-collapse: separate;
+	border-spacing: 0 5px;
+}
+table.rf tr:nth-child(1) {
+	text-align: left;
+	font-size: 12px;
+}
+table.rf tr:nth-child(2) {
+	color: #3e3d75;
+	font-size: 30px;
+}
+table.rf tr:nth-child(3) {
+	text-align: right;
+	font-size: 12px;
+}
+table.rf tr:nth-child(5) {
+	text-align: center;
+}
+
+hr{
+	margin:10px 10px;
+	opacity: 0.5;
+}
+
+img.sicon:hover, img.sicon:active{
+	border-radius: 15px;
+	background-color: #3e3d75;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+
+#rep_fr{
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.rep_write{
+	width: 920px;
+	height:98.5px;
+	margin-left: 15px;
+}
+
+#rep_fr_btn{
+	text-align:center;
+	margin-top:80px;
+	vertical-align: top;
+}
+
+#rep_div{
+	text-align: center;
+}
+#rep_div>span{
+	display: inline-block;
+	width: 95%;
+	text-align: left;
+	border-bottom: 0.5px solid #3e3d75;
+	padding:20px;
+}
+.rp_like{
+	display: block;
+	float:right;
+}
+
+.whatid{
+	display: block;
+	text-align:right;
+	float: right;
+	font-size: 12px;
+}
+
+.rfr1{
+	text-align: left;
+}
+
+.rfr1>textarea{
+	display:inline-block;
+	margin:5px;
+	width: 900px;
+	height:98.5px;
+}
+.rfr1 input[type=button]{
+	text-align:center;
+	margin-top:85px;
+	vertical-align: top;
+}
+
+.rfr2{
+	text-align: left;
+}
+
+.rfr2>textarea{
+	display:inline-block;
+	margin:5px;
+	width: 900px;
+	height:98.5px;
+	
+}
+
+.rfr2 input[type=button]{
+	text-align:center;
+	margin-top:85px;
+	vertical-align: top;
+}
+
+.rrfr1{
+	text-align: left;
+}
+
+.rrfr1>textarea{
+	display:inline-block;
+	margin:5px;
+	width: 900px;
+	height:98.5px;
+}
+.rrfr1 input[type=button]{
+	text-align:center;
+	margin-top:85px;
+	vertical-align: top;
+}
+
+article> button {
+	display: inline-block;
+	float: right;
+
+}
+
+strong{
+	font-size:12px;
+	background-color: #cfd2e8;
+}
+
+textarea{
+	resize: none;
+}
+
+

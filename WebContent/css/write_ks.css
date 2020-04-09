@@ -1,0 +1,63 @@
+/*aside */
+aside h1{
+	font-family: 'Jua', sans-serif;
+	color:white;
+	font-weight: lighter;
+}
+
+.cate{
+	font-family: 'Jua', sans-serif;
+	margin:10px;
+	padding:10px;
+	width:100px;
+	font-size: 15px;
+	background:none;
+	border: 0px;
+	color: #f57236;
+	border-bottom: 0.5px solid #f57236;
+	border-radius: 5px;
+	font-weight: lighter;
+	cursor:pointer;
+}
+
+.cate:hover{
+	color:white;
+	background-color: #f57236;
+	border: 0px;
+	transition-duration: 0.3s;
+}
+
+article h1{
+	font-family: 'jua', sans-serif;
+}
+
+article table{
+	width:100%;
+	border-collapse: separate;
+	border-spacing: 0 15px;
+}
+
+table input{
+	height: 30px;
+	width:100%;
+}
+table select, table option{
+	height: 30px;
+	width:100%;
+}
+
+input[type=button], input[type=submit]{
+	font-family:'jua', sans-serif;
+	display:inline-block;
+	float:right;
+	margin: 5px;
+	padding:5px;
+	border: 1px solid black;
+	background: none;	
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+	color:white;
+	background-color: black;
+}
+

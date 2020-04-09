@@ -1,0 +1,128 @@
+h3{
+	margin-left:15px;
+	color:#9d5cbd;
+}
+
+[id*=gal]{
+	display: inline-block;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid #e3e3e3;
+	box-shadow: 3px 3px #e4e1e6;
+}
+
+[id*=gal]:hover{
+	background-color: #ebd5f5;
+}
+
+[id*=gal] img:hover{
+	cursor: pointer;
+}
+.title{
+	font-size: 20px;
+}
+.title:link, .title:visited {
+	text-decoration: none;
+	color:black;
+}
+.title:hover{
+	color: #9d5cbd;
+	cursor: pointer;
+}
+.nickname{
+	font-size: 12px;
+	float:left;
+}
+.regdate{
+	font-size: 12px;
+	float:right;
+}
+
+button.wbtn{
+	float:right;
+}
+#page_box{
+	text-align: center;
+}
+#page_box>a, #page_box>a:hover, #page_box>a:visited{
+	text-decoration: none;
+	color:#9d5cbd;
+}
+
+/*aside */
+h1{
+	font-family: 'Jua', sans-serif;
+	color:white;
+	font-weight: lighter;
+}
+
+
+.cate{
+	font-family: 'Jua', sans-serif;
+	margin:10px;
+	padding:10px;
+	width:100px;
+	font-size: 15px;
+	background:none;
+	border: 0px;
+	color: #9d5cbd;
+	border-bottom: 0.5px solid #9d5cbd;
+	border-radius: 5px;
+	font-weight: lighter;
+	cursor:pointer;
+}
+
+.cate:hover{
+	color:white;
+	background-color: #9d5cbd;
+	border: 0px;
+	transition-duration: 0.3s;
+}
+
+#searchbar{
+	text-align: center;
+}
+#searchbar select{
+	display:inline-block;
+	width:50px;
+	height: 25px;
+	border:1px solid #bfbfbf;
+	vertical-align: top;
+}
+#searchbar>input[type=text]{
+	display:inline-block;
+	width:500px;
+	height: 22px;
+	padding-left: 5px;
+	border:1px solid #bfbfbf;
+	color: gray;
+	vertical-align: top;
+}
+#searchbar input[type=submit]{
+	font-family: 'Jua', sans-serif;
+	display:inline-block;
+	margin-left:0px;
+	width:50px;
+	height: 25px;
+	background: none;
+	font-weight:lighter;
+	border:1px solid #bfbfbf;
+	color: gray;
+	vertical-align: top;
+}
+
+button, input[type=button]{
+	font-family: 'Jua', sans-serif;
+	background-color: white;
+	border:0.8px double #9d5cbd;
+	color:#9d5cbd;
+	border-radius:15px;
+	margin:1px;
+	padding: 7px;
+	margin-top:3px;
+}
+
+button:hover, input[type=button]:hover{
+	background-color: #9d5cbd;
+	color:white;
+}

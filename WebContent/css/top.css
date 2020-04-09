@@ -1,0 +1,265 @@
+/* Basic Styles */
+body{
+	margin: 0;
+	background-color: white;
+}
+
+nav{
+	height: 40px;
+	width: 1260px;
+	margin:0 auto;
+	font-size: 11.3pt;
+	font-family: 'Jua', sans-serif;
+	font-weight: bold;
+	position:relative;
+	border-bottom: 0.5px dashed black;
+	z-index:3;
+}
+nav>ul{
+/* 	background-color: #79bd9a; */
+	padding: 0;
+	margin: 0 auto;
+	width: 900px; /*메뉴 추가시 100px씩 추가*/
+	height: 40px;
+}
+nav>ul>li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+nav ul ul{
+	list-style:none;
+	position: absolute;	
+}
+
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	color:black;
+	border-bottom: 0.5px solid black;
+}
+nav a:hover, nav a:active{
+	color:white;
+	background-color: black;
+}
+.menu1{
+	color:#dc143c;
+	border-bottom: 0.5px solid #dc143c;
+}
+.menu1:hover, .menu1:active{
+	color:white;
+	background-color: #dc143c;
+}
+.menu2{
+	color:#f57236;
+	border-bottom: 0.5px solid #f57236;
+}
+.menu2:hover, .menu2:active{
+	color:white;
+	background-color: #f57236;
+}
+.menu3{
+	color:#a87b00;
+	border-bottom: 0.5px solid #a87b00;
+}
+.menu3:hover, .menu3:active{
+	color:white;
+	background-color: #a87b00;
+}
+.menu4{
+	color:#2e8b57;
+	border-bottom: 0.5px solid #2e8b57;
+}
+.menu4:hover, .menu4:active{
+	color:white;
+	background-color: #2e8b57;
+}
+.menu5{
+	color:#4682b4;
+	border-bottom: 0.5px solid #4682b4;
+}
+.menu5:hover, .menu5:active{
+	color:white;
+	background-color: #4682b4;
+}
+.menu6{
+	color:#3e3d75;
+	border-bottom: 0.5px solid #3e3d75;
+}
+.menu6:hover, .menu6:active{
+	color:white;
+	background-color: #3e3d75;
+}
+.menu7{
+	color:#9d5cbd;
+	border-bottom: 0.5px solid #9d5cbd;
+}
+.menu7:hover, .menu7:active{
+	color:white;
+	background-color: #9d5cbd;
+}
+
+nav a#pull{
+	display: none;
+}
+
+nav ul.submenu {
+display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+}
+
+.submenu li{
+	width: 100px;
+	height: 40px;
+	background-color: white;
+}
+.submenu1>li{
+	border: 0.5px solid #dc143c;
+}
+.submenu1>li>a{
+	color:#dc143c;
+	border-bottom: 0px solid white;
+}
+.submenu1>li>a:hover{
+	background-color:#dc143c;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu2>li{
+	border: 0.5px solid #f57236;
+}
+.submenu2>li>a{
+	color:#f57236;
+	border-bottom: 0px solid white;
+}
+.submenu2>li>a:hover{
+	background-color:#f57236;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu3>li{
+	border: 0.5px solid #a87b00;
+}
+.submenu3>li>a{
+	color:#a87b00;
+	border-bottom: 0px solid white;
+}
+.submenu3>li>a:hover{
+	background-color:#a87b00;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu4>li{
+	border: 0.5px solid #2e8b57;
+}
+.submenu4>li>a{
+	color:#2e8b57;
+	border-bottom: 0px solid white;
+}
+.submenu4>li>a:hover{
+	background-color:#2e8b57;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu5>li{
+	border: 0.5px solid #4682b4;
+}
+.submenu5>li>a{
+	color:#4682b4;
+	border-bottom: 0px solid white;
+}
+.submenu5>li>a:hover{
+	background-color:#4682b4;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu6>li{
+	border: 0.5px solid #3e3d75;
+}
+.submenu6>li>a{
+	color:#3e3d75;
+	border-bottom: 0px solid white;
+}
+.submenu6>li>a:hover{
+	background-color:#3e3d75;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+.submenu7>li{
+	border: 0.5px solid #9d5cbd;
+}
+.submenu7>li>a{
+	color:#9d5cbd;
+	border-bottom: 0px solid white;
+}
+.submenu7>li>a:hover{
+	background-color:#9d5cbd;
+	color:white;
+	border-bottom: 0px solid white;
+}
+
+ul li:hover ul {
+display:block;   /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+}
+
+/* header */
+header{
+	background-color:white;
+	width: 1260px;
+	margin:0 auto;
+	margin-top:10px;
+	height:50px;
+	font-family: 'Jua', sans-serif;
+}
+header div{
+	display:inline-box;
+	position:static;
+	width:auto;
+	float:left;
+}
+
+header>#home_title{
+	float:left;
+	margin-left:220px;
+	width:auto;
+	font-size: 30px;
+	
+}
+
+header>#login_box{
+	float:right;
+	margin-left:30px;
+	font-size: 12px;
+	font-family:'Jua', sans-serif;
+}
+
+header>#login_box a{
+	text-decoration:none;
+	margin-right:10px;
+	padding: 5px;
+	font-size: 14px;
+}
+header>#login_box a:link, header>#login_box a:visited{
+	color:black;
+}
+header>#login_box a:hover, header>#login_box a:active{
+	border-bottom: 1px solid black;
+}
+
+
+
+

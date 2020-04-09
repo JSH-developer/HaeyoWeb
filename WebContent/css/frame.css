@@ -1,0 +1,36 @@
+#wrap1{
+	margin:0 auto;
+	width: 1260px;
+	height: 720px;
+	
+}
+
+input[type=button], button{
+	cursor:pointer;
+}
+
+aside{
+	position: relative;
+	margin:10px;
+	margin-left:10px;
+	margin-right:0px;
+    width: 200px;
+    height: 1026px;
+    text-align:center;
+    float: left;
+}
+
+article{
+	font-family:'Noto Sans KR', sans-serif;
+	position: relative;
+	width: 1030px;
+	height: auto;
+	margin: 10px;
+	margin-left:0px;
+	margin-right:10px;
+	float: right;
+}
+
+article img {
+	max-width: 100%;
+}

@@ -1,0 +1,18 @@
+#foot_div{
+	margin:0 auto;
+	width:1260px;
+	height: auto;
+}
+
+footer{
+	display: inline-block;
+	position: relative;
+	float:left;
+	width:1260px;
+	margin-top:10px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	text-align: center;
+	color:black;
+	font-family: 'Jua', sans-serif;
+}
